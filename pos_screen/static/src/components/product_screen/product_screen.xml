@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="OrderLineColorChange" owl="1">
+        <div class="control-button" style="color: blue;">
+            <i class="fa fa-dribbble" />
+            <span> </span>
+            <span>Product Color</span>
+        </div>
+    </t>
+
+</templates>

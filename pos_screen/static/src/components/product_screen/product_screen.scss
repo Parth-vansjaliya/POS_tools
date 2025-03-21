@@ -1,0 +1,29 @@
+.pos .pos-topheader {
+    background: #03045e;
+}
+
+.pos .button.validation {
+    background: #0077b6;
+}
+
+// .pos .numpad {
+//     .mode-button {
+//         background: #df7548;
+//     }
+// }
+
+.pos .mode-button.selected-mode {
+    background: #00b4d8;
+}
+
+.pos .order .orderlines {
+    background: #caf0f8;
+}
+
+.pos .order .orderline.selected, .pos .order .orderlines, .pos .order .orderline .info-list em{
+    color: #000000;
+}
+
+.pos .product-list-container {
+    background: #caf0f8;
+}
