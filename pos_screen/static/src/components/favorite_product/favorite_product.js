@@ -27,7 +27,6 @@ export const ProductScreenPOSInherit = (ProductScreen) =>
                 }
             })
             this.favorite_products = data
-            console.log('data', data)
 //                this.favorite_products = await this.env.pos.favorite_products
             })
 
@@ -36,7 +35,6 @@ export const ProductScreenPOSInherit = (ProductScreen) =>
         get favoriteProducts(){
             let products = this.env.pos.db.product_by_id;
             let tag_id = this.product_tag_id
-            console.log('tag id', tag_id)
 //            let products = this.env.pos.db.get_product_by_category(4);
 //            console.log("Products", products)
 //            console.log("Products", this.env.pos.favorite_products)
