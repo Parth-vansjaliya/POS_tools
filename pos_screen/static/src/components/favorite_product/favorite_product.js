@@ -40,7 +40,6 @@ export const ProductScreenPOSInherit = (ProductScreen) =>
 //            console.log("Products", this.env.pos.favorite_products)
             let favorites = []
             this.favorite_products.forEach(p => favorites.push(products[p]))
-            this.favorite_products.forEach(p => favorites.push())
             return favorites
         }
 
